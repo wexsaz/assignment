@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "assignment"
+version = "0.1.0"
+description = "Home assignment for Software Development Engineer in Test"
+authors = ["iiskln"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.3"
+pytest-mock = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
